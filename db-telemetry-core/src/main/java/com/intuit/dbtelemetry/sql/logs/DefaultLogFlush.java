@@ -60,7 +60,7 @@ public class DefaultLogFlush implements LogFlush {
      *
      *
      * @param threadSleep Delay before logs and data are reset.
-     * @throws InterruptedException if the thread sleep is interrupted.
+     * @throws TelemetryFlushException if the thread sleep is interrupted.
      */
     @Override
     public void flushLogs(long threadSleep) throws TelemetryFlushException {
